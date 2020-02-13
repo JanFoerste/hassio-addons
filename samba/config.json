@@ -27,6 +27,5 @@
   },
   "devices": ["/dev/sdb1:/dev/sdb1:rwm"],
   "privileged": ["SYS_ADMIN"],
-  "full_access": true,
-  "image": "homeassistant/{arch}-addon-samba"
+  "full_access": true
 }
