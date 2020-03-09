@@ -29,7 +29,7 @@ bashio::log.info "Hostname: ${NAME}"
 
 # Setup mount
 mkdir /mnt/storage
-mount /dev/sdb1 /mnt/storage
+mount /dev/sda1 /mnt/storage
 
 # Setup config
 sed -i "s|%%WORKGROUP%%|${WORKGROUP}|g" /etc/smb.conf
