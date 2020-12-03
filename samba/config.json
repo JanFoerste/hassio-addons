@@ -25,7 +25,7 @@
     "allow_hosts": ["str"],
     "veto_files": ["str"]
   },
-  "devices": ["/dev/sda2:/dev/sda1:rwm", "/dev/sdb1:/dev/sdb2:rwm"],
+  "devices": ["/dev/sda2:/dev/sda2:rwm", "/dev/sdb2:/dev/sdb2:rwm"],
   "privileged": ["SYS_ADMIN"],
   "full_access": true
 }
