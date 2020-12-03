@@ -30,6 +30,8 @@ bashio::log.info "Hostname: ${NAME}"
 # Setup mount
 mkdir /mnt/storage
 mkdir /mnt/data
+ls -la /mnt/
+whoami
 mount /dev/sda2 /mnt/storage
 mount /dev/sdb2 /mnt/data
 
